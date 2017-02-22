@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Instituto Tecnológico de Culiacán
+	</title>
+	</head>
+	<body>
+
+	<table align=center>
+		<tr>
+			<td colspan=3 align=right><img src=tec/1.png ></td>
+		</tr>
+			<tr>
+				<td><img src=tec/2.png ></td>
+				<td><img src=tec/3.png ></td>
+				<td><img src=tec/4.png ></td>
+			</tr>
+			<tr>
+				<td colspan=3 align=center><img src=tec/5.png ></td>
+			</tr>
+			<tr>
+				<td colspan=3 align=center><img src=tec/6.png ></td>
+			</tr>
+			<tr>
+				<td ><img src=tec/7.png ></td>
+				<td ><img src=tec/8.png ></td>
+				<td ><img src=tec/9.png ></td>
+			</tr>
+			<tr>
+				<td><img src=tec/10.png ></td>
+				<td><img src=tec/11.png ></td>
+				<td><img src=tec/12.png ></td>
+			</tr>
+			<tr>
+				<td><img src=tec/13.png ></td>
+				<td><img src=tec/14.png ></td>
+				<td><img src=tec/15.png ></td>
+			</tr>
+			<tr>
+				<td><img src=tec/16.png ></td>
+				<td><img src=tec/17.png ></td>
+				<td><img src=tec/18.png ></td>
+			</tr>
+			<tr>
+				<td><img src=tec/19.png ></td>
+				<td><img src=tec/20.png ></td>
+				<td><img src=tec/21.png ></td>
+			</tr>
+			<tr>
+				<td><img src=tec/22.png ></td>
+				<td><img src=tec/23.png ></td>
+				<td><img src=tec/24.png ></td>
+			</tr>
+			<tr>
+				<td colspan=3 align=right><img src=tec/25.png ></td>
+			</tr>
+			<tr>
+				<td colspan=3 align=right><img src=tec/26.png ></td>
+			</tr>
+			<tr>
+				<td><img src=tec/27.png ></td>
+				<td colspan=2 align=center><img src=tec/28.png ></td>
+			</tr>
+			<tr>
+				<td colspan=3 align=center><img src=tec/29.png ></td>
+			</tr>
+			<tr>
+				<td colspan=3 align=center><img src=tec/30.png ></td>
+			</tr>
+			<tr>
+				<td colspan=3 align=center><img src=tec/31.png ></td>
+			</tr>
+
+
+		</table>
+
+	</body>
+</html>
