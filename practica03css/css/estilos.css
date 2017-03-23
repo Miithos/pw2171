@@ -1,0 +1,27 @@
+
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*centramos el body*/
+	max-width: 1024px; /*empresa-cliente*/
+}
+
+section{
+	display: inline-block;
+	border: 1px solid red;
+}
+
+#slide,#post{
+	border-bottom: 1px solid gray;
+	width: 60%;
+	/*border: 1px solid red;*/
+}
+
+#articulo02{
+	width: 30%;
+	/*border: 1px solid red;*/
+
+}
+
+#post img{
+	vertical-align: middle;
+}
