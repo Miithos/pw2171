@@ -4,15 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Practica 03 de CSS3</title>
 	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Londrina+Shadow|Nunito" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<img src="img/logo.jpg" alt="">
-		MI THEMA EN HTML5
-		<img src="img/red1.png" alt="">
-		<img src="img/red2.png" alt="">
-		<img src="img/red3.png" alt="">
-		<nav>
+		<img src="img/logo.jpg" alt="" id="logo">
+		<br>
+		<span id="tema">MI THEMA EN HTML5</span>
+
+		<span id="imgtop">
+			<img src="img/red1.png" alt="">
+			<img src="img/red2.png" alt="">
+			<img src="img/red3.png" alt="">
+		</span>
+			<nav>
 			<ul>
 				<li>INICIO</li>
 				<li>TUTORIALES</li>
@@ -26,35 +31,45 @@
 
 	</header> 
 <section>
-	<article>
+	<article  id="articulo01">
 		<article id="slide">
 			<img src="img/slider.jpg" alt="">
 		</article>
 
 		<article id="post">
-			Titulo del Post
-			<img src="img/img-post.jpg" alt="">
-			<span class="info">Por <i>Admin</i> <i>El 30/05/2012.</i> En <i>Pruebas</i></span>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dignissimos fugit delectus ullam numquam. Odit nulla pariatur ullam temporibus quaerat reiciendis quia a possimus iure omnis, quisquam quos blanditiis, explicabo!
-			</p>
+			<span class="titulo">Titulo del Post</span> <br>
+			<article id="postimg">
+				<img src="img/img-post.jpg" alt="">
+			</article>
+			<article id="postletras">
+				<span class="info">Por <i>Admin</i> <i>El 30/05/2012.</i> En <i>Pruebas</i></span>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dignissimos fugit delectus ullam numquam. Odit nulla pariatur ullam temporibus quaerat reiciendis quia a possimus iure omnis, quisquam quos blanditiis, explicabo!
+				</p>
 			
 			<input type="button" value="Leer Mas...">
+
+			</article>
+
 		</article>
 	</article>
 
 	<article id="articulo02">
 		<article id="publicidad">
 			<span class="encabezado">Publicidad</span>
-			<img src="img/publicidad.jpg" alt="">
-			<img src="img/publicidad.jpg" alt="">
-			<img src="img/publicidad.jpg" alt="">
-			<img src="img/publicidad.jpg" alt="">
+			
+			<span id="publiimg">
+				<img src="img/publicidad.jpg" alt="">
+				<img src="img/publicidad.jpg" alt="">
+				<img src="img/publicidad.jpg" alt="">
+				<img src="img/publicidad.jpg" alt="">
+			</span>
+			
 
 		</article>
 		<article id="buscador">
 			<span class="encabezado">Buscar</span>
-			<span class="inputs">
+			<span id="inputs">
 				<input type="search" placeholder="Search...">
 				<input type="button" value="Go">
 			</span>

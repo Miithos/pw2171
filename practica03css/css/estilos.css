@@ -3,25 +3,196 @@ body{
 	font-size: 16px; /*1em*/
 	margin: 0 auto; /*centramos el body*/
 	max-width: 1024px; /*empresa-cliente*/
+	font-family: 'Nunito', sans-serif;
+}
+
+header nav{
+	margin-top: 20px;
+	background: orange;
+	border-radius: 5px;
+	padding: 0.03px 0px 0.03px 0px;
+	
+
+}
+
+header nav ul li{
+	
+	color: white;
+	display: inline-block;
+	font-size: 1em;
+	margin-right: 40px;
+	margin-left: -20px;
+
+
+	
 }
 
 section{
+	margin: 0 auto;
+	width: 97%;
+	/*border: 1px solid red;*/
+}
+
+section #articulo01, #articulo02{
 	display: inline-block;
-	border: 1px solid red;
+	vertical-align: top;
+	margin-left: 8px;
+	
 }
 
 #slide,#post{
 	border-bottom: 1px solid gray;
-	width: 60%;
+
 	/*border: 1px solid red;*/
 }
+
+#articulo01{
+	width: 63%;
+	
+
+}
+
+#articulo01 article{
+	/*border:2px solid red;*/
+	margin-top: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+
 
 #articulo02{
-	width: 30%;
+	
+	margin-top: 20px;
+	width: 34%;
 	/*border: 1px solid red;*/
 
 }
 
-#post img{
-	vertical-align: middle;
+#articulo02 article{
+
+	margin-top: 40px;
+	border-radius: 10px;
+	/*background: gray;*/
+	border: 1px  solid gray;
+	padding: 0px 0px 20px 0px;
+
+}
+
+
+.info{
+	border-radius: 5px;
+	/*background: gray;*/
+	border: 1px solid gray;
+	display: block;
+
+}
+
+#post input[type="button"]{
+	background: lightgray;
+	color: white;
+	border-radius: 5px;
+	padding: 5px 3px 5px 3px;
+	font-style: italic;
+
+}
+
+#buscador input[type="search"]{
+
+	border-radius: 15px;
+	
+	
+}
+
+#buscador input[type="button"]{
+	background: lightgray;
+	color: white;
+	border-radius: 35px;
+	padding: 3px 3px 3px 3px;
+	
+}
+
+.encabezado{
+
+	background: orange;
+	border-radius: 5px;
+	color: white;
+	font-size: 1em;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	padding: 2px 0px 2px 0px;
+	margin-top: -10px;
+
+	
+}
+
+#publiimg{
+	/*border: 1px solid red;*/
+	display: inline-block;
+	margin-top: 15px;
+	padding-left: 2px;
+
+}
+
+.titulo{
+/*	border:1px solid red;*/	
+/*display: block;*/
+	color: gray;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#buscador{
+	text-align: center;
+
+
+}
+
+#inputs{
+	position: relative;
+	top:10px;
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 5px 4px 6px 4px;
+	/*arreglar el top*/
+}
+
+#postimg img{
+	/*margin: 30%;*/
+	border: 8px solid black;
+
+}
+
+#postletras{
+	width: 70%;
+	/*border: 1px solid gray;*/
+}
+
+
+
+#catregoria ul li{
+
+	border-bottom: 1px dashed gray;
+	padding-top: 10px;
+	width: 90%;
+	font-size: 1.1em;
+}
+
+#imgtop{
+
+	float: right;
+	margin-top: -10px;
+	margin-right: 30px;
+
+}
+
+#tema{
+	font-size: 1.8em;
+	margin-left: 20px;
+	font-family: 'Londrina Shadow', cursive;
+}
+
+#logo{
+	margin-top: 15px;
+	margin-left: 20px;
 }
