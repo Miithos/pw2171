@@ -1,0 +1,44 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*centramos el body*/
+	max-width: 1078px; /*empresa-cliente*/
+	/*background: blue;*/
+	
+}
+
+header nav{
+	display: block;
+	text-align: right;
+	background: #ECECEE;
+	
+}
+
+header nav ul li{
+	
+	
+	display: inline-block;
+	vertical-align: bottom;
+
+	
+
+	/*text-decoration: underline;*/ 
+}
+
+#logo{
+
+}
+
+#articulo01,#articulo02{
+	display: inline-block;
+	border: 1px solid red;
+
+	/*sirve?*/
+}
+
+#articulo01{
+	width: 25%;
+}
+
+#articulo02{
+	width: 65%;
+}
