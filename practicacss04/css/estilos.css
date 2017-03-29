@@ -6,6 +6,10 @@ body{
 	
 }
 
+header{
+	text-align: center;
+}
+
 header nav{
 	display: block;
 	text-align: right;
@@ -28,15 +32,94 @@ header nav ul li{
 
 }
 
+#articulo01{
+	vertical-align: top;
+	
+	
+
+}
+
+#articulo01 article{
+	margin-top: 20px;
+}
+
+#articulo0102 ul li{
+	list-style: none;
+}
+
+
+
+#articulo0101 ul{
+	margin-left: -35px;
+	margin-top: -6px
+
+
+}
+
+#articulo0101{
+	border: 1px solid darkblue;
+	background: darkblue;
+	color: white;
+}
+
+#articulo0101 ul li{
+	list-style: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+	/*padding-top: 2px;*/
+	
+	
+}
+
+#articulo0102{
+	border: 1px solid gray;
+}
+
+#articulo0102 ul li{
+	margin-left: -30px;
+	color: gray;
+}
+
+#articulo0102 ul li img{
+	width: 98%;
+	margin-left: -4px;
+	
+	
+}
+
+#progresslogo{
+	vertical-align: middle;
+	width: 10%;
+	margin-left: 8px;
+	/*margin-top: 3px;*/
+}
+
+#panelwith{
+	/*color: white;*/
+	/*margin-top: 3px;*/
+	padding: 5px 0px 10px 0px;
+	/*border: 2px solid red;*/
+	display: block;
+	background: darkblue;
+	color: white;
+
+}
+
+#panel{
+	/*margin: center;*/
+	/*border: 1px solid red;*/
+
+}
+
 #articulo01,#articulo02{
 	display: inline-block;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 
 	/*sirve?*/
 }
 
 #articulo01{
-	width: 25%;
+	width: 21.2%;
 }
 
 #articulo02{
