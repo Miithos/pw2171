@@ -1,0 +1,185 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*centramos el body*/
+	max-width: 1078px; /*empresa-cliente*/
+	
+	
+}
+
+header{
+	display: inline-block;
+	background: #F0F0F0;
+	padding: 0px 0px 20px 0px; 
+}
+
+header img{
+	width: 70%;
+	margin-top: 5px;
+	margin-left: 35px;
+}
+
+header input{
+	text-align: right;
+	margin-left: 80px;
+	vertical-align: top;
+	margin-top: 5px;
+	background: #F0F0F0;
+}
+
+section{
+	background: #2A2A2A;
+	padding: 0px 0px 25px 0px;
+	border-bottom: 1px solid gray;
+}
+
+section article{
+	display: inline-block;
+	
+	
+}
+
+footer{
+	background: #2A2A2A;
+	padding: 18px 0px 0px 0px;
+}
+
+footer article{
+	display: inline-block;
+	width: 27%;
+	margin-left: 40px;
+
+
+}
+
+footer article img{
+	width: 85%;
+	border-bottom: 1px dashed gray;
+	display: block;
+	padding: 0px 0px 10px 55px;
+	
+}
+
+footer article input{
+	color: white;
+	background: #2A2A2A;
+	border: 1px solid  #2A2A2A ;
+	float: right;
+}
+
+footer article ul li{
+	list-style: none;
+
+}
+
+#correo{
+	color: darkblue;
+}
+
+.oscuro{
+	color:  darkgray;
+}
+.secundaria{
+	margin-left: 50px;
+	vertical-align: top;
+
+}
+
+#fecha{
+	color: gray;
+}
+
+#titulox{
+	color: lightgray;
+	margin-left: 34px;
+}
+#titulo{
+	color: lightgray;
+}
+.info{
+	color: #848484;
+}
+
+#articulo01{
+	width: 25%;
+}
+#articulo01 img{
+	width: 65%;
+	margin-left: 5px;
+	margin-top: 5px;
+
+}
+
+#articulo01 ul{
+	margin-top: 50px;
+}
+
+#articulo01 ul li{
+	list-style: none;
+	margin-top: 8px;
+	margin-left: 20px;
+
+}
+
+.segundo{
+	color: gray;
+
+}
+
+#primero{
+	color: white;
+}
+
+#verde,#gris,#rojo,#claro{
+	width: 16.1%;
+	vertical-align: top;
+	margin-top: 15px;
+	height: 280px;
+	padding: 0px 0px 0px 13px;
+}
+
+#verde{
+	background: #AFCA52;
+	margin-left: 23px;
+}
+
+.titulos01{
+	color: white;
+	font-size: 1.5em;
+
+}
+
+.contenido01{
+	color: white;
+	font-size: 0.8em;
+}
+
+.final01{
+	color: white;
+	font-size: 0.9em;
+
+}
+
+#gris{
+	background: #595959;
+	margin-left: -3px;
+}
+
+#rojo{
+	background: #D32C3E;
+	margin-left: -3px;
+}
+
+#claro{
+	background: #D5D5D5;
+	margin-left: -3px;
+}
+
+.titulos02{
+	color: #848484;
+	font-size: 1.5em;
+}
+
+.contenido02{
+	color: #848484;
+	font-size: 0.8em;
+}

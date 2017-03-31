@@ -3,17 +3,20 @@ body{
 	margin: 0 auto; /*centramos el body*/
 	max-width: 1078px; /*empresa-cliente*/
 	/*background: blue;*/
+	background: #265D8E;
 	
 }
 
 header{
 	text-align: center;
+
 }
 
 header nav{
 	display: block;
 	text-align: right;
 	background: #ECECEE;
+	padding: 0px 0px 20px 0px;
 	
 }
 
@@ -35,18 +38,17 @@ header nav ul li{
 #articulo01{
 	vertical-align: top;
 	
+	padding: 0px 20px 40px 20px;
+	width: 21.2%;
+	background: #ECECEE;
+
 	
 
 }
 
 #articulo01 article{
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 }
-
-#articulo0102 ul li{
-	list-style: none;
-}
-
 
 
 #articulo0101 ul{
@@ -57,28 +59,37 @@ header nav ul li{
 }
 
 #articulo0101{
-	border: 1px solid darkblue;
-	background: darkblue;
+	border: 1px solid #20507B;
+	background: #20507B;
 	color: white;
 }
 
 #articulo0101 ul li{
 	list-style: none;
 	font-size: 0.9em;
-	margin-top: 2px;
+	margin-top: 10px;
 	/*padding-top: 2px;*/
+	font-family: 'Fira Sans Condensed', sans-serif;
 	
 	
 }
 
 #articulo0102{
 	border: 1px solid gray;
+	margin-top: 20px;
+	background: white;
 }
 
 #articulo0102 ul li{
 	margin-left: -30px;
+	list-style: none;
 	color: gray;
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+
 }
+
+
 
 #articulo0102 ul li img{
 	width: 98%;
@@ -100,7 +111,7 @@ header nav ul li{
 	padding: 5px 0px 10px 0px;
 	/*border: 2px solid red;*/
 	display: block;
-	background: darkblue;
+	background: #265D8E;
 	color: white;
 
 }
@@ -118,10 +129,95 @@ header nav ul li{
 	/*sirve?*/
 }
 
-#articulo01{
-	width: 21.2%;
-}
 
 #articulo02{
-	width: 65%;
+	width: 75%;
+	background: white;
+	margin-left: -4px;
+	padding: 0px 0px 4px 0px;
+	}
+
+.articulo020{
+	margin-left: 25px;
+	margin-top: 25px;
+
+}
+
+
+.titulos{
+	display: block;
+	color: gray;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#cubeverde,#cubeazul,#cubelila,#cubered{
+	display: inline-block;
+	width: 23.7%;
+	
+	color: white;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	vertical-align: top;
+	height: 120px;
+
+}
+
+#cubeverde img,#cubeazul img,#cubelila img,#cubered img{
+	width: 70px;
+}
+
+#cubeverde{
+	background: #23A72B;
+
+
+}
+
+
+
+#cubeazul{
+	background: #216EA7;
+
+}
+
+
+
+#cubelila{
+	background: #7E23A4;
+
+}
+
+
+#cubered{
+	background: #A41C1F;
+
+}
+
+
+
+#grafica{
+	width: 97%;
+}
+
+.users{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+
+	background: #4B6CAB;
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
+	vertical-align: top;
+	height: 270px;
+}
+
+.users img{
+	width: 180px;
+}
+
+.users input {
+	color: white;
+	background: #81A9C1;
+	border-radius: 2px;
+
 }
