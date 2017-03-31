@@ -1,0 +1,153 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto; 
+	max-width: 1078px; 
+}
+
+header{
+
+	padding: 0px 0px 45px 0px;
+	border-bottom: 1px dashed gray;
+
+
+
+}
+
+header nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 35px;
+	margin-top: 40px;
+	font-style: bold;
+	font-family: 'Palanquin Dark', sans-serif;
+
+	
+}
+
+
+header nav ul{
+	margin-left: -60px;
+
+
+}
+
+section article{
+	display: inline-block;
+	
+}
+
+
+
+#footer01{
+	display: block;
+	font-family: 'News Cycle', sans-serif;
+	color: #DADADA;
+}
+
+#footer01 img{
+	vertical-align: middle;
+}
+#footer02 article{
+	width: 18%;
+	display: inline-block;
+	margin-top: 40px;
+	vertical-align: top;
+	margin-left: 14px;
+
+}
+
+.titulos{
+	color: gray;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 1px solid gray;
+	display: block;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+#footer02 article ul{
+	margin-top: -1px;
+}
+#footer02 article ul li{
+	list-style: none; 
+	margin-left: -40px;
+	color: #BEBDBD;
+	font-size: 0.8em;
+	font-family: 'News Cycle', sans-serif;
+
+}
+
+#article01{
+	width: 58%;
+	vertical-align: top;
+}
+
+#article0101{
+	margin-top: 15px;
+	margin-left: 5px;
+	font-size: 4.8em;
+	border-bottom: 1px dashed gray;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#article0102{
+	margin-top: 40px;
+	color: #717171;
+	margin-left: 5px;
+	font-size: 1.2em;
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#article0103{
+	margin-top: 30px;
+}
+
+#article0103 img{
+	width: 48%;
+	margin-left: 8px;
+}
+
+#article02{
+	padding: 0px 0px -50px 0px;
+}
+
+#five{
+	position: relative;
+	width: 37%;
+	top: -35px;
+	margin-top: -100px;
+
+}
+
+#verde{
+	color: #78F04C;
+}
+#article02{
+	width: 38%;
+}
+
+#buy{
+	float: right;
+	margin-top: -50px;
+	margin-right:  280px;
+}
+
+#go{
+	float: right;
+	margin-top: -120px;
+	margin-right:  -220px;
+	width: 15%;
+
+}
+
+#logitos{
+	float: right;
+	margin-top: 5px;
+
+}
+
+#first{
+	margin-left: 10px;
+	margin-top: 30px;
+}
