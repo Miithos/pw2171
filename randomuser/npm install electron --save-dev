@@ -1,0 +1,3 @@
+sudo npm install electron --save-dev
+sudo npm install electron-require --save-dev
+sudo npm install jquery --save-dev
